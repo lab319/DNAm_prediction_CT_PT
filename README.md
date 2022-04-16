@@ -30,6 +30,6 @@ The DNA methylation data used in this research were collected from The Cancer Ge
 
 (2) Define file names of output predicted DNA methylation values for target tissue. For example, 'LR_target.txt' is the predicted DNA methylation values of target tissue using linear regression model, 'SVM_target.txt' is the predicted DNA methylation values of target tissue using SVM, 'XGBoost_target.txt' is the predicted DNA methylation values of target tissue using XGBoost.
 
-(3) Now, you can run the 'single-CpG-based_LR.py', 'single-CpG-based_SVM', and 'single-CpG-based_XGBoost' program where under the 'model_construction' folder.
+(3) Now, you can run the 'single-CpG-based_LR.py', 'single-CpG-based_SVM.py', and 'single-CpG-based_XGBoost.py' program where under the 'model_construction' folder.
 
 (4) After the program is excuted, you can obtain the predicted DNA methylation values of these CpG sites provided by us under the 'output_DNAm_data' folder. 
