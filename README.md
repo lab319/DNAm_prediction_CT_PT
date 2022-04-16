@@ -11,9 +11,13 @@ This repository contains a python program to build a cross-tissue prediction mod
 ## 2.The version of Python and packages
 
 Python version=3.7
+
 XGBoost version=0.82
+
 scikit-learn version=0.24.2
+
 numpy version=1.20.1
+
 pandas version=1.2.2
 
 ## 3.The datasets of the program
@@ -22,4 +26,10 @@ The DNA methylation data used in this research were collected from The Cancer Ge
 
 ## 4. How to use our program and obtain output predicted DNA methylation values
 
-(1) 
+(1) Organize two data files: 'surrogate_tissue_data' and 'target_tissue_data' files.
+
+(2) Define file names of output predicted DNA methylation values for target tissue. For example, 'LR_target.txt' is the predicted DNA methylation values of target tissue using linear regression model, 'SVM_target.txt' is the predicted DNA methylation values of target tissue using SVM, 'XGBoost_target.txt' is the predicted DNA methylation values of target tissue using XGBoost.
+
+(3) Now, you can run the 'single-CpG-based_LR.py', 'single-CpG-based_SVM', and 'single-CpG-based_XGBoost' program where under the 'model_construction' folder.
+
+(4) After the program is excuted, you can obtain the predicted DNA methylation values of these CpG sites provided by us under the 'output_DNAm_data' folder. 
