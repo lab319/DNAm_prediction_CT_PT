@@ -26,11 +26,11 @@ pandas version=1.2.2
 
 ## 3.The datasets of the program
 
-The DNA methylation data used in this research were collected from The Cancer Genome Atlas (TCGA) project and that are publicly available at https://portal.gdc.cancer.gov. The 'Data' folder contains three files: 'surrogate_target.txt','surrogate_tissue.txt' and 'target_tissue.txt' files. We matched DNA methylation data of cancer and paracancer tissues from the same patient in advance. Rows and columns of the files are corresponding to CpG sites and samples respectively.
+The DNA methylation data used in this research were collected from The Cancer Genome Atlas (TCGA) project and that are publicly available at https://portal.gdc.cancer.gov. The 'Data' folder contains three files: 'surrogate_feature.txt','surrogate_tissue.txt' and 'target_tissue.txt' files. We matched DNA methylation data of cancer and paracancer tissues from the same patient in advance. Rows and columns of the files are corresponding to CpG sites and samples respectively.
 
 ## 4. How to use our program and obtain output predicted DNA methylation values
 
-(1) Organize two data files: 'surrogate_tissue.txt' and 'target_tissue.txt' files.
+(1) Organize three data files: 'surrogate_feature.txt', 'surrogate_tissue.txt', and 'target_tissue.txt' files.
 
 (2) Define file names of output predicted DNA methylation values for target tissue. For example, 'LR-single_target.txt' is the predicted DNA methylation values of target tissue based on single-CpG-based linear regression model, 'SVM-single_target.txt' is the predicted DNA methylation values of target tissue based on single-CpG-based SVM model, 'XGBoost-single_target.txt' is the predicted DNA methylation values of target tissue based on single-CpG-based XGBoost model.'LR-multiple_target.txt' is the predicted DNA methylation values of target tissue based on multiple-CpG-based linear regression model, 'SVM-multiple_target.txt' is the predicted DNA methylation values of target tissue based on multiple-CpG-based SVM model, 'XGBoost-multiple_target.txt' is the predicted DNA methylation values of target tissue based on multiple-CpG-based XGBoost model.
 
