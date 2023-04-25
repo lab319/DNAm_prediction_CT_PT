@@ -2,21 +2,21 @@
 
 **Contact:**
 
-Baoshan Ma (mabaoshan@dlmu.edu.cn)
-
 Shuzheng Zhang (18353291726@139.com)
+
+Baoshan Ma (mabaoshan@dlmu.edu.cn)
 
 Yu Liu(ly1392570280@163.com)
 
-Yiwen Shen(sywww0314@163.com)
+Yiwen Shen
 
-Di Li(jzlidi@126.com)
+Di Li
 
-Shuxin Liu(root8848@sina.com)
+Shuxin Liu
 
-Fengju Song(songfengju@163.com)
+Fengju Song
 
-**Citation:**
+**Citation:** Predicting locus-specific DNA methylation levels in cancer and paracancer tissues
 
 ## 1.Introduction
 
